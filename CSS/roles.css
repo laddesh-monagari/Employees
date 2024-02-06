@@ -1,0 +1,433 @@
+body {
+    font-family: "public sans";
+}
+.roles-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.side-navbar{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 240px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.logo-handle {
+    position: absolute;
+    top: 5px;
+    right: -20px;
+}
+.side-navbar h6{
+    font-size: 12px;
+    margin: 20px 0 20px;
+    padding-left: 10px;
+    color: rgb(187, 173, 173);
+}
+.navitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:40px;
+    width:100%; 
+    border-radius: 5px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.navitem img{
+    padding-left: 10px;
+}
+.navitem p{
+    margin-top:15px ;
+    padding-left:10px;
+}  
+.usermanagement h6{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.sidenav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.sidenav:hover{
+    background-color: rgba(244,72,72,0.12);
+    color:red;
+}
+.sidenav:hover .indication{
+        position:relative;
+        right:-10px;
+        width: 0px;
+        height: 40px;
+        border: 3px solid red;
+        border-radius: 5px;
+}
+.sidenav-update {
+    background-color: rgba(244, 72, 72, 0.12);
+    border-radius: 15px;
+    margin: 500px 0px 0px;
+    text-align: center;
+    width: 100%;
+}
+.sidenav-update h3{
+    color: rgb(235, 84, 84);
+    padding: 20px 0px 0px 5px;
+    font-size: 16px;
+    text-align: left;
+}
+.sidenav-update p{
+    font-size: 15px;
+    padding: 0px 15px 0px 5px;
+    line-height: 20px;
+    text-align: left;
+}
+.update-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.update-buttons button{
+    width:80px;
+    height:40px;
+    border-radius: 10px; 
+    border: none; 
+}
+.dismiss{
+    background-color: rgba(244, 132, 136);
+    margin-right:10px;
+    margin-left:10px;
+}
+.accept{
+    color:white;
+    background-color: rgb(235, 84, 84);
+}
+.context{
+    width: 1130px;
+    height: 70px;
+}
+.searchbar {
+    width: 1130px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px 5px aliceblue;
+    align-items: center;
+}
+.search, .searchbar-choices, .searchbar-admin, .searchbar-userdetails  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.search img {
+    height: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.search p {
+    font-size: 15px;
+    color: rgb(191, 194, 194);
+} 
+.searchbar-icons {
+    padding-right: 20px;
+}
+.searchbar-admin {
+    margin-right: 50px;
+}
+.searchbar-usericon {
+    position: relative;
+}
+.searchbar-usericon img {
+    border-radius: 50%;
+    height: 40px;
+}
+.searchbar-usericon .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 30px;
+    right: 3px;
+    border: 2px solid white;
+}
+.searchbar-username {
+    text-align: left;
+}
+.searchbar-username p {
+        margin-bottom: 0px;
+        margin-top: 15px;
+        padding-left: 10px;
+}
+.searchbar-username h4 {
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-left: 10px;
+}
+.searchbar-arrowdown {
+    position: absolute;
+    margin-top: 15px;
+    right: 30px;
+}
+.role{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height:80px;
+}
+.role-info h6{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top:30px;
+}
+.role-info p{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top:5px;
+}
+.add-role{
+    display: flex;
+    align-items: center;
+}
+.add{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(245, 83, 71) ;
+    border:none;
+}
+.add img{
+    margin-top:5px;
+    padding-right: 10px;   
+}
+.add p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.filter-bar{
+    width:calc(100%-10px);
+    height:50px;
+    background-color: rgba(244,72,72,0.12);
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 165, 165)
+}
+.filter-dropdowns, .filter-bar, .filter, .dropdowns{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter{
+    padding-left: 20px;
+    color:rgb(192, 79, 79); 
+    padding-right: 10px;      
+}
+.filter img{
+    padding-left:5px;
+}
+.dropdowns{
+    gap:10px;
+}
+select[name="status-dropdown1"] {
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    border-radius:5px;
+    border: 1px solid rgb(230, 165, 165)
+  }
+select[name="status-dropdown2"] {
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    border-radius:5px;
+    border: 1px solid rgb(230, 165, 165)
+}
+.filterbar-buttons button:last-child{
+    width:60px;
+    height: 30px;
+    background-color: rgb(245, 83, 71);
+    border: 1px solid rgb(230, 165, 165);
+    color:white;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.filterbar-buttons button:first-child{
+    width:60px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 165, 165)
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    gap:15px;
+    margin-top:15px;
+    height:225px;
+}
+.container-group{
+    box-shadow: 0px 0px 2px 0.12px rgb(128, 118, 118);
+    height:225px;
+    border-radius: 10px;
+}
+.container-group-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-group-header h3{
+    margin-top: 40px;
+    margin-bottom:0px;
+    align-items: center;
+    padding-left: 20px;
+}
+.container-group-header img{
+    color:rgb(99, 99, 230);
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.department, .location, .total-employees ,.view-all-employees{
+    color:#232B33CC;
+}
+.department{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   margin-top: 5px;
+   align-items: center;
+}
+.location{
+    display:flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   align-items: center;
+}
+.department-info,.location-info{
+    display:flex;
+    flex-direction: row;
+    justify-content:left; 
+    align-items: center;
+    padding-left: 15px;
+ }
+ .department-info .material-symbols-outlined{
+     padding-top:15px;
+ }
+ .location-info img{
+     padding-top:10px;
+     font-size: 20px;
+ }
+ .department-info img{
+     padding-top: 15px;
+ }
+ .department-info p{
+     padding-left: 5px;
+     margin-bottom: 0px;
+ }
+ .location-info p{
+     padding-left: 5px;
+     margin-bottom: 0px;
+     margin-top:10px;
+ }
+ .department-details p{
+     padding-right: 20px;
+     margin-bottom:0px;
+ }
+ .location-details p{
+     padding-left: 5px;
+     margin-bottom: 10px;
+     margin-top:10px;
+     padding-right:20px;
+ }
+ .total-employees{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom:-20px;
+    margin-right:-20px;
+
+}
+.total-employees p{
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.role-count img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+  .count{
+    position: relative;
+    right:-35px;
+    top:-27px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+    background: #fff;
+    color: #000;
+    font-size: 10px;
+  }
+.role-count .image1{
+    position: relative;
+    right:10px;
+    margin-top:10px;
+  } 
+  
+  .role-count .image2{
+    position: relative;
+   right:25px;
+  }
+  .role-count .image3{
+    position: relative;
+    right: 40px;
+  }
+  .role-count .image4{
+    position: relative;
+    right: 55px;
+  }
+.view-all-employees{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:0px;
+    
+}
+
+.view-all-employees p{
+    margin-top:0px;
+   
+}
+.view-all-employees img{
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
