@@ -24,11 +24,11 @@
 .roles-choices .roles-employee p {
   color: rgba(24, 29, 35, 0.3803921569);
 }
-.roles-choices .add-employeebtn {
+.roles-choices .create {
   display: flex;
   align-items: center;
 }
-.roles-choices .add-employeebtn .add {
+.roles-choices .create .add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,11 +41,11 @@
   background-color: rgb(245, 83, 71);
   border: none;
 }
-.roles-choices .add-employeebtn .add img {
+.roles-choices .create .add img {
   margin-top: 5px;
   padding-right: 10px;
 }
-.roles-choices .add-employeebtn .add p {
+.roles-choices .create .add p {
   margin-top: 10px;
   font-size: 15px;
 }

@@ -69,8 +69,7 @@
 .alphabets img{
     padding-right: 10px;
 }
-
-.filter-bar, .options, .filter, .dropdowns{
+.row-division{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,34 +94,34 @@
 .dropdowns{
     gap:10px;
 }
-.ddl-status, .ddl-location, .ddl-department {  
+.ddl {  
     height: 35px;
     text-align: center;
     border-radius:5px;
     border: 1px solid rgb(230, 165, 165)
   }
-.ddl-status{
+.dropdowns:first-child{
     width:75px;
   }
-.ddl-location {
+.dropdowns:nth-child(2) {
     width: 90px;  
 }
-.ddl-department {
+.dropdowns:nth-child(3) {
     width: 110px;
 }
-.btn-reset, .btn-apply{
+.btn button:first-child, .btn button:nth-child(2) {
     width:60px;
     height: 30px;
      border-radius: 5px;
     border: 1px solid rgb(230, 165, 165)
 }
-.btn-apply{
+.btn button:first-child{
     background-color: rgb(245, 83, 71);
     color:white;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 5px;
 }
-.btn-reset{
+.btn button:nth-child(2){
     margin-right: 10px;
     background-color: white;
 }

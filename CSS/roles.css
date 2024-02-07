@@ -66,31 +66,31 @@
 .dropdowns{
     gap:10px;
 }
-.dpn-status, .dpn-location {  
+.ddl {  
     height: 35px;
     text-align: center;
     border-radius:5px;
     border: 1px solid rgb(230, 165, 165)
   }
-.dpn-status{
-    width:75px;
+.dropdowns:first-child{
+    width: 110px;
   }
-.dpn-location {
+.dropdowns:nth-child(2) {
     width: 90px;  
 }
-.reset, .apply{
+.btn button:first-child, .btn button:nth-child(2) {
     width:60px;
     height: 30px;
      border-radius: 5px;
     border: 1px solid rgb(230, 165, 165)
 }
-.apply{
+.btn button:first-child{
     background-color: rgb(245, 83, 71);
     color:white;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 5px;
 }
-.reset{
+.btn button:nth-child(2){
     margin-right: 10px;
     background-color: white;
 }
