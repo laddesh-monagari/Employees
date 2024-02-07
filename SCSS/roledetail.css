@@ -1,8 +1,4 @@
-.context {
-  width: 1130px;
-  height: 70px;
-}
-.context .roles-choices {
+.roles-choices {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,29 +6,29 @@
   margin-top: 10px;
   height: 80px;
 }
-.context .roles-choices .roles-employee .employee {
+.roles-choices .roles-employee .employee {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   align-items: center;
 }
-.context .roles-choices .roles-employee .employee img {
+.roles-choices .roles-employee .employee img {
   padding: 30px 5px 0px 5px;
 }
-.context .roles-choices .roles-employee .employee h6 {
+.roles-choices .roles-employee .employee h6 {
   font-size: 20px;
   margin-bottom: 0px;
   margin-top: 30px;
-  color: #838F9C;
+  color: #838f9c;
 }
-.context .roles-choices .roles-employee p {
+.roles-choices .roles-employee p {
   color: rgba(24, 29, 35, 0.3803921569);
 }
-.context .roles-choices .add-employee {
+.roles-choices .add-employeebtn {
   display: flex;
   align-items: center;
 }
-.context .roles-choices .add-employee .add {
+.roles-choices .add-employeebtn .add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -45,38 +41,40 @@
   background-color: rgb(245, 83, 71);
   border: none;
 }
-.context .roles-choices .add-employee .add img {
+.roles-choices .add-employeebtn .add img {
   margin-top: 5px;
   padding-right: 10px;
 }
-.context .roles-choices .add-employee .add p {
+.roles-choices .add-employeebtn .add p {
   margin-top: 10px;
   font-size: 15px;
 }
-.context .role-descryption h5 {
+
+.role-descryption h5 {
   margin-top: 20px;
   font-size: 20px;
   margin-bottom: 0px;
 }
-.context .role-descryption p {
+.role-descryption p {
   font-size: 14px;
   padding-right: 10px;
   color: rgba(24, 29, 35, 0.3803921569);
   line-height: 20px;
 }
-.context .container {
+
+.container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 20px;
   margin-top: 15px;
   height: 225px;
 }
-.context .container .container-box {
+.container .container-box {
   box-shadow: 0px 0px 2px 0.12px rgb(128, 118, 118);
   height: 250px;
   border-radius: 5px;
 }
-.context .container .container-box .box-header {
+.container .container-box .box-header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -85,28 +83,31 @@
   margin-top: 25px;
   margin-bottom: 0px;
 }
-.context .container .container-box .box-header .profile-image img {
+.container .container-box .box-header .profile-image img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
 }
-.context .container .container-box .box-header .profile-text {
+.container .container-box .box-header .profile-text {
   padding-left: 10px;
 }
-.context .container .container-box .box-header .profile-text h6 {
+.container .container-box .box-header .profile-text h6 {
   font-size: 15px;
   margin-top: 15px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
-.context .container .container-box .box-header .profile-text p {
+.container .container-box .box-header .profile-text p {
   margin-top: 0px;
   margin-bottom: 0px;
   color: rgb(83, 80, 80);
   font-size: 15px;
   padding-top: 3px;
 }
-.context .container .container-box .inf-id, .context .container .container-box .mail, .context .container .container-box .dept, .context .container .container-box .location {
+.container .container-box .inf-id,
+.container .container-box .mail,
+.container .container-box .dept,
+.container .container-box .location {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -115,24 +116,28 @@
   gap: 15px;
   color: rgba(35, 43, 51, 0.8);
 }
-.context .container .container-box .mail p, .context .container .container-box .dept p, .context .container .container-box .location p {
+.container .container-box .mail p,
+.container .container-box .dept p,
+.container .container-box .location p {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 10px;
   font-size: 15px;
 }
-.context .container .container-box .mail img, .context .container .container-box .dept img, .context .container .container-box .location img {
+.container .container-box .mail img,
+.container .container-box .dept img,
+.container .container-box .location img {
   align-items: center;
   padding-top: 5px;
 }
-.context .container .container-box .inf-id p {
+.container .container-box .inf-id p {
   margin-bottom: 0px;
 }
-.context .container .container-box .inf-id img {
+.container .container-box .inf-id img {
   padding-bottom: 0px;
   padding-top: 10px;
 }
-.context .container .container-box .footer {
+.container .container-box .footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -140,6 +145,6 @@
   gap: 5px;
   padding-top: 10px;
 }
-.context .container .container-box .footer p {
+.container .container-box .footer p {
   color: rgb(83, 80, 80);
 }/*# sourceMappingURL=roledetail.css.map */
