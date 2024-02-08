@@ -310,13 +310,13 @@ table tr td p{
   border-radius: 50%;
   margin-right: 10px;
 }
-.details p{
+.profile p{
     align-items:center;
 }
-.name{
+.profile p:first-child{
     margin-bottom: 0px;
 }
-.mail{
+.profile p:nth-child(2){
     margin-top: 0px;
     font-weight: normal;
 }
